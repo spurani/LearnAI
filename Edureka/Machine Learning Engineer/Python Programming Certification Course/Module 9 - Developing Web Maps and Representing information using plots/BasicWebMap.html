@@ -1,0 +1,2568 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ebfaa0bd98844f0c87f08b1f20a91495 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ebfaa0bd98844f0c87f08b1f20a91495" ></div>
+        
+</body>
+<script>    
+    
+            var map_ebfaa0bd98844f0c87f08b1f20a91495 = L.map(
+                "map_ebfaa0bd98844f0c87f08b1f20a91495",
+                {
+                    center: [37.76598566417688, -122.42269093028843],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_13f2cc9fb0a94a8793a9f89a7586e292 = L.tileLayer(
+                "https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u0026copy; \u003ca href=\"http://www.mapbox.com/about/maps\"\u003eMapbox\u003c/a\u003e Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ebfaa0bd98844f0c87f08b1f20a91495);
+        
+    
+            var feature_group_e96397d652994de9ab48cf614c2a7383 = L.featureGroup(
+                {}
+            ).addTo(map_ebfaa0bd98844f0c87f08b1f20a91495);
+        
+    
+            var marker_5be06c10e59b47caa6396e614c535eb6 = L.marker(
+                [37.775420706711, -122.40340479147905],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_b8a0dfd8832342638bdac98c060a2e2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5be06c10e59b47caa6396e614c535eb6.setIcon(icon_b8a0dfd8832342638bdac98c060a2e2b);
+        
+    
+        var popup_ebc9d98d74a349479789b2c028aae89b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff64d4a105af4c9795c46b5323d830f2 = $(`<div id="html_ff64d4a105af4c9795c46b5323d830f2" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_ebc9d98d74a349479789b2c028aae89b.setContent(html_ff64d4a105af4c9795c46b5323d830f2);
+        
+
+        marker_5be06c10e59b47caa6396e614c535eb6.bindPopup(popup_ebc9d98d74a349479789b2c028aae89b)
+        ;
+
+        
+    
+    
+            var marker_daa8a2f09de94198b9a03b014506a3b8 = L.marker(
+                [37.775420706711, -122.40340479147905],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_36f133bc77594d378a290a9f4441e427 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_daa8a2f09de94198b9a03b014506a3b8.setIcon(icon_36f133bc77594d378a290a9f4441e427);
+        
+    
+        var popup_935ff3e43b254c66ada5ee6fb4f4ab97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba9f1809b3cb4fdb85723da9b6ba8bd9 = $(`<div id="html_ba9f1809b3cb4fdb85723da9b6ba8bd9" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_935ff3e43b254c66ada5ee6fb4f4ab97.setContent(html_ba9f1809b3cb4fdb85723da9b6ba8bd9);
+        
+
+        marker_daa8a2f09de94198b9a03b014506a3b8.bindPopup(popup_935ff3e43b254c66ada5ee6fb4f4ab97)
+        ;
+
+        
+    
+    
+            var marker_6befad2258bb402389659b1e03111aa8 = L.marker(
+                [37.735397565030844, -122.4154323065427],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_392a2cd5ad3c46e28e0a7c10a42d6c7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6befad2258bb402389659b1e03111aa8.setIcon(icon_392a2cd5ad3c46e28e0a7c10a42d6c7d);
+        
+    
+        var popup_08240111d8424de3858c5b19584333c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fff0c4dbcc245af907d57b25227ad22 = $(`<div id="html_5fff0c4dbcc245af907d57b25227ad22" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_08240111d8424de3858c5b19584333c8.setContent(html_5fff0c4dbcc245af907d57b25227ad22);
+        
+
+        marker_6befad2258bb402389659b1e03111aa8.bindPopup(popup_08240111d8424de3858c5b19584333c8)
+        ;
+
+        
+    
+    
+            var marker_f823a1d33e1f4a42a80deb28f4727b2c = L.marker(
+                [37.729980967299596, -122.38885620429184],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_531dcb6ab18d41b5be787a6e87d3ebbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f823a1d33e1f4a42a80deb28f4727b2c.setIcon(icon_531dcb6ab18d41b5be787a6e87d3ebbc);
+        
+    
+        var popup_e213ff12bd83465185fc568a4ade7b7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45505efe0b944f46981df01507aee05c = $(`<div id="html_45505efe0b944f46981df01507aee05c" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e213ff12bd83465185fc568a4ade7b7c.setContent(html_45505efe0b944f46981df01507aee05c);
+        
+
+        marker_f823a1d33e1f4a42a80deb28f4727b2c.bindPopup(popup_e213ff12bd83465185fc568a4ade7b7c)
+        ;
+
+        
+    
+    
+            var marker_8ab3f485463a48c08c07cb599c115d1e = L.marker(
+                [37.78135894167133, -122.43995406172891],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_d8c17b577f3645f7b3b892eb9275e31e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ab3f485463a48c08c07cb599c115d1e.setIcon(icon_d8c17b577f3645f7b3b892eb9275e31e);
+        
+    
+        var popup_83a67b42b1b742f083937542da7e6250 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75964c5b155549a6bec9ca241e1c3876 = $(`<div id="html_75964c5b155549a6bec9ca241e1c3876" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_83a67b42b1b742f083937542da7e6250.setContent(html_75964c5b155549a6bec9ca241e1c3876);
+        
+
+        marker_8ab3f485463a48c08c07cb599c115d1e.bindPopup(popup_83a67b42b1b742f083937542da7e6250)
+        ;
+
+        
+    
+    
+            var marker_d23c58b5da674780a7febfa576c40ac5 = L.marker(
+                [37.782245822391744, -122.44661297883863],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_191b6a86facd4d8184f038768f2cd6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d23c58b5da674780a7febfa576c40ac5.setIcon(icon_191b6a86facd4d8184f038768f2cd6f9);
+        
+    
+        var popup_8921b8e4bbd34afc9ac6392354522a9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eae891f764a74eae9e53a433bc51ed44 = $(`<div id="html_eae891f764a74eae9e53a433bc51ed44" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_8921b8e4bbd34afc9ac6392354522a9b.setContent(html_eae891f764a74eae9e53a433bc51ed44);
+        
+
+        marker_d23c58b5da674780a7febfa576c40ac5.bindPopup(popup_8921b8e4bbd34afc9ac6392354522a9b)
+        ;
+
+        
+    
+    
+            var marker_c2268237b9bd481a9045332791ccd90f = L.marker(
+                [37.735397565030844, -122.4154323065427],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_484d3979e4bf43b8a908fcd457ea78c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c2268237b9bd481a9045332791ccd90f.setIcon(icon_484d3979e4bf43b8a908fcd457ea78c4);
+        
+    
+        var popup_c05c21416b9b4443b7f17f29d44c0080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bb0897f729349bb928d5107a077b8e2 = $(`<div id="html_9bb0897f729349bb928d5107a077b8e2" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c05c21416b9b4443b7f17f29d44c0080.setContent(html_9bb0897f729349bb928d5107a077b8e2);
+        
+
+        marker_c2268237b9bd481a9045332791ccd90f.bindPopup(popup_c05c21416b9b4443b7f17f29d44c0080)
+        ;
+
+        
+    
+    
+            var marker_a1dc79373d184f34942914134c49695e = L.marker(
+                [37.724291930011134, -122.4087076339152],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_4dbe701ffb9b4e84935d1d2956cbf0dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1dc79373d184f34942914134c49695e.setIcon(icon_4dbe701ffb9b4e84935d1d2956cbf0dd);
+        
+    
+        var popup_bf340873771e4d1cb1cfee29789a0858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f114b8f4b474439e9919f9435fa8532c = $(`<div id="html_f114b8f4b474439e9919f9435fa8532c" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_bf340873771e4d1cb1cfee29789a0858.setContent(html_f114b8f4b474439e9919f9435fa8532c);
+        
+
+        marker_a1dc79373d184f34942914134c49695e.bindPopup(popup_bf340873771e4d1cb1cfee29789a0858)
+        ;
+
+        
+    
+    
+            var marker_314292f15aee41bcbedc5d3f6ce57e27 = L.marker(
+                [37.76505012146682, -122.41967178029562],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_db36f05284ac4f7dba9be52aec39d722 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_314292f15aee41bcbedc5d3f6ce57e27.setIcon(icon_db36f05284ac4f7dba9be52aec39d722);
+        
+    
+        var popup_11925b05ba954f5e9bde209d18639f94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54d8f7c4723f4e5dabd9104a03e91c9c = $(`<div id="html_54d8f7c4723f4e5dabd9104a03e91c9c" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_11925b05ba954f5e9bde209d18639f94.setContent(html_54d8f7c4723f4e5dabd9104a03e91c9c);
+        
+
+        marker_314292f15aee41bcbedc5d3f6ce57e27.bindPopup(popup_11925b05ba954f5e9bde209d18639f94)
+        ;
+
+        
+    
+    
+            var marker_1d1dd9b0c13647b591d03f2d8a459058 = L.marker(
+                [37.78087893602139, -122.40572145456717],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_2c91e0880afa4a6d86dfcb51f30ac394 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d1dd9b0c13647b591d03f2d8a459058.setIcon(icon_2c91e0880afa4a6d86dfcb51f30ac394);
+        
+    
+        var popup_de0bf77508b44f1e8969855e9732f191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9d4d194d240448a907ae3ad96d48224 = $(`<div id="html_a9d4d194d240448a907ae3ad96d48224" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_de0bf77508b44f1e8969855e9732f191.setContent(html_a9d4d194d240448a907ae3ad96d48224);
+        
+
+        marker_1d1dd9b0c13647b591d03f2d8a459058.bindPopup(popup_de0bf77508b44f1e8969855e9732f191)
+        ;
+
+        
+    
+    
+            var marker_560cd7030dc44799b3865a13164961ba = L.marker(
+                [37.783980559263384, -122.41177829599216],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_7267df7a2667449e963882f12cc8d215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_560cd7030dc44799b3865a13164961ba.setIcon(icon_7267df7a2667449e963882f12cc8d215);
+        
+    
+        var popup_dba7733a781c4128b92311f76e66b6ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2a06cc87dd44bacbda32415c2332517 = $(`<div id="html_e2a06cc87dd44bacbda32415c2332517" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_dba7733a781c4128b92311f76e66b6ed.setContent(html_e2a06cc87dd44bacbda32415c2332517);
+        
+
+        marker_560cd7030dc44799b3865a13164961ba.bindPopup(popup_dba7733a781c4128b92311f76e66b6ed)
+        ;
+
+        
+    
+    
+            var marker_d42ba8a00f4a47789b9e56107937154a = L.marker(
+                [37.735397565030844, -122.4154323065427],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_ffba3f96913e4b0681fb41adf823305e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d42ba8a00f4a47789b9e56107937154a.setIcon(icon_ffba3f96913e4b0681fb41adf823305e);
+        
+    
+        var popup_b72b7b58859946368e8e48e632fb42d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad1a48b5be814f7a85e04209fc5a1379 = $(`<div id="html_ad1a48b5be814f7a85e04209fc5a1379" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b72b7b58859946368e8e48e632fb42d6.setContent(html_ad1a48b5be814f7a85e04209fc5a1379);
+        
+
+        marker_d42ba8a00f4a47789b9e56107937154a.bindPopup(popup_b72b7b58859946368e8e48e632fb42d6)
+        ;
+
+        
+    
+    
+            var marker_e086a2300163491f954e32f7bd65b5f0 = L.marker(
+                [37.782793107100616, -122.41405629189116],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_12ad8808092c45889d504576fc756832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e086a2300163491f954e32f7bd65b5f0.setIcon(icon_12ad8808092c45889d504576fc756832);
+        
+    
+        var popup_c539cddf1b4d4509b918dcf9f5e8e25f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaad9aa10c93495ca913549763ab3dc4 = $(`<div id="html_eaad9aa10c93495ca913549763ab3dc4" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c539cddf1b4d4509b918dcf9f5e8e25f.setContent(html_eaad9aa10c93495ca913549763ab3dc4);
+        
+
+        marker_e086a2300163491f954e32f7bd65b5f0.bindPopup(popup_c539cddf1b4d4509b918dcf9f5e8e25f)
+        ;
+
+        
+    
+    
+            var marker_d27fe6f1c53a4529b71eed3f8e586495 = L.marker(
+                [37.720966961549934, -122.3871816359951],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_6c41564f031742d0a9c02be49dd97429 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d27fe6f1c53a4529b71eed3f8e586495.setIcon(icon_6c41564f031742d0a9c02be49dd97429);
+        
+    
+        var popup_29795a1114394c1b9600a4429c4b331d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00bf428c2a6641e6b4e0edab3488b69d = $(`<div id="html_00bf428c2a6641e6b4e0edab3488b69d" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_29795a1114394c1b9600a4429c4b331d.setContent(html_00bf428c2a6641e6b4e0edab3488b69d);
+        
+
+        marker_d27fe6f1c53a4529b71eed3f8e586495.bindPopup(popup_29795a1114394c1b9600a4429c4b331d)
+        ;
+
+        
+    
+    
+            var marker_0779b8ed3f6e4df1a782e1d4238b05aa = L.marker(
+                [37.761168753413095, -122.44188411610992],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_182109f18393468d9c250e24ad38ccd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0779b8ed3f6e4df1a782e1d4238b05aa.setIcon(icon_182109f18393468d9c250e24ad38ccd7);
+        
+    
+        var popup_0fa1018b09294263a8c14b651fe90076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f34751e93c64e2da6fb99bf5f1fbb19 = $(`<div id="html_3f34751e93c64e2da6fb99bf5f1fbb19" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_0fa1018b09294263a8c14b651fe90076.setContent(html_3f34751e93c64e2da6fb99bf5f1fbb19);
+        
+
+        marker_0779b8ed3f6e4df1a782e1d4238b05aa.bindPopup(popup_0fa1018b09294263a8c14b651fe90076)
+        ;
+
+        
+    
+    
+            var marker_34f61002c71d4d6186216eadd5b13d15 = L.marker(
+                [37.77246824000607, -122.38951764803555],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_1984a02725164884aad1d3e1232283fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34f61002c71d4d6186216eadd5b13d15.setIcon(icon_1984a02725164884aad1d3e1232283fc);
+        
+    
+        var popup_b9ce7f28da5b46fe8e7d6ab8faf42d31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_623eed19e5d743c79f0e2ae0af3f52f3 = $(`<div id="html_623eed19e5d743c79f0e2ae0af3f52f3" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b9ce7f28da5b46fe8e7d6ab8faf42d31.setContent(html_623eed19e5d743c79f0e2ae0af3f52f3);
+        
+
+        marker_34f61002c71d4d6186216eadd5b13d15.bindPopup(popup_b9ce7f28da5b46fe8e7d6ab8faf42d31)
+        ;
+
+        
+    
+    
+            var marker_89570c1b03e149029fb651630f1fadef = L.marker(
+                [37.756225011974436, -122.41875384815205],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_21853caeaaaa42a497190fdb5d4b68e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89570c1b03e149029fb651630f1fadef.setIcon(icon_21853caeaaaa42a497190fdb5d4b68e6);
+        
+    
+        var popup_373f2cb5549f45f59654052b7125420b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_644a01a6aaad4cd79f1f2f06788d79b2 = $(`<div id="html_644a01a6aaad4cd79f1f2f06788d79b2" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_373f2cb5549f45f59654052b7125420b.setContent(html_644a01a6aaad4cd79f1f2f06788d79b2);
+        
+
+        marker_89570c1b03e149029fb651630f1fadef.bindPopup(popup_373f2cb5549f45f59654052b7125420b)
+        ;
+
+        
+    
+    
+            var marker_a5018625254d45b0820e60d8af32b862 = L.marker(
+                [37.80421641761859, -122.44709993644042],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_1d939ebcce2c472ab635ab77cf44627d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5018625254d45b0820e60d8af32b862.setIcon(icon_1d939ebcce2c472ab635ab77cf44627d);
+        
+    
+        var popup_de84d9115f224892945b37c1d1b9d1ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81d240f191c44191a0f0ec3b7a946329 = $(`<div id="html_81d240f191c44191a0f0ec3b7a946329" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_de84d9115f224892945b37c1d1b9d1ef.setContent(html_81d240f191c44191a0f0ec3b7a946329);
+        
+
+        marker_a5018625254d45b0820e60d8af32b862.bindPopup(popup_de84d9115f224892945b37c1d1b9d1ef)
+        ;
+
+        
+    
+    
+            var marker_a0beeeae6ece4f018232416a7dd91042 = L.marker(
+                [37.72927051995922, -122.43232587102835],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_75389dd193aa4d10943983ef73b6f4d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0beeeae6ece4f018232416a7dd91042.setIcon(icon_75389dd193aa4d10943983ef73b6f4d8);
+        
+    
+        var popup_ec0a57bd58114a6e81c081c698243a6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a599f402f437479b96529117da86071f = $(`<div id="html_a599f402f437479b96529117da86071f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_ec0a57bd58114a6e81c081c698243a6e.setContent(html_a599f402f437479b96529117da86071f);
+        
+
+        marker_a0beeeae6ece4f018232416a7dd91042.bindPopup(popup_ec0a57bd58114a6e81c081c698243a6e)
+        ;
+
+        
+    
+    
+            var marker_d0c2a7ee9a5e4267825cbcf8cb448158 = L.marker(
+                [37.79164298238399, -122.40090869889043],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_6d8c59211fcb4416a6f0c6519e57e13c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d0c2a7ee9a5e4267825cbcf8cb448158.setIcon(icon_6d8c59211fcb4416a6f0c6519e57e13c);
+        
+    
+        var popup_3350904e43e74346bc50a17aeb3b0629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b73ab6b4d184dec9ae61e2b6a77e1bf = $(`<div id="html_4b73ab6b4d184dec9ae61e2b6a77e1bf" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_3350904e43e74346bc50a17aeb3b0629.setContent(html_4b73ab6b4d184dec9ae61e2b6a77e1bf);
+        
+
+        marker_d0c2a7ee9a5e4267825cbcf8cb448158.bindPopup(popup_3350904e43e74346bc50a17aeb3b0629)
+        ;
+
+        
+    
+    
+            var marker_c819c3104c924545837b429fc6dc7a2d = L.marker(
+                [37.78370693015445, -122.40859511086857],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f532ba5e9d0845e39c9c52776c6d7d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c819c3104c924545837b429fc6dc7a2d.setIcon(icon_f532ba5e9d0845e39c9c52776c6d7d32);
+        
+    
+        var popup_b0119b3e74d54ef58d853cbbb3cd79e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_192a297b8c314e9ebed5fcc67b3b1435 = $(`<div id="html_192a297b8c314e9ebed5fcc67b3b1435" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b0119b3e74d54ef58d853cbbb3cd79e7.setContent(html_192a297b8c314e9ebed5fcc67b3b1435);
+        
+
+        marker_c819c3104c924545837b429fc6dc7a2d.bindPopup(popup_b0119b3e74d54ef58d853cbbb3cd79e7)
+        ;
+
+        
+    
+    
+            var marker_7f058333dc4f4e81b19bfc1f2ebf7f23 = L.marker(
+                [37.75728959045776, -122.40687040208216],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_4e8b73bb8a074db8a77b497b5081156a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f058333dc4f4e81b19bfc1f2ebf7f23.setIcon(icon_4e8b73bb8a074db8a77b497b5081156a);
+        
+    
+        var popup_8edc5363b8024df5a5eddac76ae87e95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad52a40a0fa54f4eb64d79c172b58ba0 = $(`<div id="html_ad52a40a0fa54f4eb64d79c172b58ba0" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_8edc5363b8024df5a5eddac76ae87e95.setContent(html_ad52a40a0fa54f4eb64d79c172b58ba0);
+        
+
+        marker_7f058333dc4f4e81b19bfc1f2ebf7f23.bindPopup(popup_8edc5363b8024df5a5eddac76ae87e95)
+        ;
+
+        
+    
+    
+            var marker_0d5aaa66b44741068023c6d3cf67bad4 = L.marker(
+                [37.748906305182864, -122.42035478086113],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_d95d9fb670714f5da39f786ba3df06e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d5aaa66b44741068023c6d3cf67bad4.setIcon(icon_d95d9fb670714f5da39f786ba3df06e2);
+        
+    
+        var popup_b7aea98e05a64b9b81289f2254a6be17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d039810e2aa491292f04f6bbbd94a2f = $(`<div id="html_6d039810e2aa491292f04f6bbbd94a2f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b7aea98e05a64b9b81289f2254a6be17.setContent(html_6d039810e2aa491292f04f6bbbd94a2f);
+        
+
+        marker_0d5aaa66b44741068023c6d3cf67bad4.bindPopup(popup_b7aea98e05a64b9b81289f2254a6be17)
+        ;
+
+        
+    
+    
+            var marker_634d488e82764a86a8e0c93d0b5c5c43 = L.marker(
+                [37.71576542699496, -122.43990976677156],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_0e589e75c68e4c0491b2c61faaaf898f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_634d488e82764a86a8e0c93d0b5c5c43.setIcon(icon_0e589e75c68e4c0491b2c61faaaf898f);
+        
+    
+        var popup_ecb332d8336b4c6c938818d1cc41b57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86aa438e4be549b19a642632c53a9c24 = $(`<div id="html_86aa438e4be549b19a642632c53a9c24" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_ecb332d8336b4c6c938818d1cc41b57a.setContent(html_86aa438e4be549b19a642632c53a9c24);
+        
+
+        marker_634d488e82764a86a8e0c93d0b5c5c43.bindPopup(popup_ecb332d8336b4c6c938818d1cc41b57a)
+        ;
+
+        
+    
+    
+            var marker_a597469b43724697ac063070f2b64048 = L.marker(
+                [37.7835699386918, -122.40842111692216],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_d8dd1f75122f42ccb3032d0c1c66d393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a597469b43724697ac063070f2b64048.setIcon(icon_d8dd1f75122f42ccb3032d0c1c66d393);
+        
+    
+        var popup_5f1e1a87b2704bfa9a54912c036fdf7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_360ed2081b69492f900904a3c1d2d3f2 = $(`<div id="html_360ed2081b69492f900904a3c1d2d3f2" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_5f1e1a87b2704bfa9a54912c036fdf7f.setContent(html_360ed2081b69492f900904a3c1d2d3f2);
+        
+
+        marker_a597469b43724697ac063070f2b64048.bindPopup(popup_5f1e1a87b2704bfa9a54912c036fdf7f)
+        ;
+
+        
+    
+    
+            var marker_7dcdacf65c9e4328865745b7972e6922 = L.marker(
+                [37.773618627645604, -122.4223156707488],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_06c8f765bb214c2a8b68686eb02f1465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dcdacf65c9e4328865745b7972e6922.setIcon(icon_06c8f765bb214c2a8b68686eb02f1465);
+        
+    
+        var popup_a2b2795507714a6eba465662f639ad92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a99d3dad5fef4bfe985901d5bea05b5c = $(`<div id="html_a99d3dad5fef4bfe985901d5bea05b5c" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_a2b2795507714a6eba465662f639ad92.setContent(html_a99d3dad5fef4bfe985901d5bea05b5c);
+        
+
+        marker_7dcdacf65c9e4328865745b7972e6922.bindPopup(popup_a2b2795507714a6eba465662f639ad92)
+        ;
+
+        
+    
+    
+            var marker_134f8d387e624ce5a5a7b7fab6ae6ac1 = L.marker(
+                [37.735397565030844, -122.4154323065427],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_aab86e2b1e3a47b08c702ff620c209d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_134f8d387e624ce5a5a7b7fab6ae6ac1.setIcon(icon_aab86e2b1e3a47b08c702ff620c209d6);
+        
+    
+        var popup_4548e208b5534051a93eb94ebc498cfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b353e51537df4eb7848839f554b2b3e6 = $(`<div id="html_b353e51537df4eb7848839f554b2b3e6" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_4548e208b5534051a93eb94ebc498cfb.setContent(html_b353e51537df4eb7848839f554b2b3e6);
+        
+
+        marker_134f8d387e624ce5a5a7b7fab6ae6ac1.bindPopup(popup_4548e208b5534051a93eb94ebc498cfb)
+        ;
+
+        
+    
+    
+            var marker_346c8c0937084856be2fa2ab1713599d = L.marker(
+                [37.764935718967955, -122.43195768519577],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_91ff8530229148099ade6c3088efb616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_346c8c0937084856be2fa2ab1713599d.setIcon(icon_91ff8530229148099ade6c3088efb616);
+        
+    
+        var popup_46846e5cf6c7407daf15fc8b4b360d83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25d7264274264042804804be4ca9674a = $(`<div id="html_25d7264274264042804804be4ca9674a" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_46846e5cf6c7407daf15fc8b4b360d83.setContent(html_25d7264274264042804804be4ca9674a);
+        
+
+        marker_346c8c0937084856be2fa2ab1713599d.bindPopup(popup_46846e5cf6c7407daf15fc8b4b360d83)
+        ;
+
+        
+    
+    
+            var marker_0d3da08173824951a82d18ef58e074c0 = L.marker(
+                [37.787306416018986, -122.40328484310558],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_117ff5e2b1154b89bb89c4a5af248133 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d3da08173824951a82d18ef58e074c0.setIcon(icon_117ff5e2b1154b89bb89c4a5af248133);
+        
+    
+        var popup_29052fb5e6864cafa87e5cc533c6d1e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80e98f0367d84898b81ff48863adab51 = $(`<div id="html_80e98f0367d84898b81ff48863adab51" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_29052fb5e6864cafa87e5cc533c6d1e2.setContent(html_80e98f0367d84898b81ff48863adab51);
+        
+
+        marker_0d3da08173824951a82d18ef58e074c0.bindPopup(popup_29052fb5e6864cafa87e5cc533c6d1e2)
+        ;
+
+        
+    
+    
+            var marker_9a1cf2d629ce4a4eb04df15755467c19 = L.marker(
+                [37.76807416938478, -122.4124243640024],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_880e2c9716f643f2a7f835745820f9f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a1cf2d629ce4a4eb04df15755467c19.setIcon(icon_880e2c9716f643f2a7f835745820f9f6);
+        
+    
+        var popup_7d1299d5b5674cfc9ea5fa063b8ec263 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_485da31ba4e84c40a40a59bd41e300df = $(`<div id="html_485da31ba4e84c40a40a59bd41e300df" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_7d1299d5b5674cfc9ea5fa063b8ec263.setContent(html_485da31ba4e84c40a40a59bd41e300df);
+        
+
+        marker_9a1cf2d629ce4a4eb04df15755467c19.bindPopup(popup_7d1299d5b5674cfc9ea5fa063b8ec263)
+        ;
+
+        
+    
+    
+            var marker_30b9b17f333d478eb489cee2c5a69fe9 = L.marker(
+                [37.7881242734432, -122.41767292362611],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_81ead3e0e3ff47ebb051733b39f84354 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30b9b17f333d478eb489cee2c5a69fe9.setIcon(icon_81ead3e0e3ff47ebb051733b39f84354);
+        
+    
+        var popup_6114dc067232407ba01397ab8be326bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21df5416e95c412bad2e3090d8949d6a = $(`<div id="html_21df5416e95c412bad2e3090d8949d6a" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_6114dc067232407ba01397ab8be326bf.setContent(html_21df5416e95c412bad2e3090d8949d6a);
+        
+
+        marker_30b9b17f333d478eb489cee2c5a69fe9.bindPopup(popup_6114dc067232407ba01397ab8be326bf)
+        ;
+
+        
+    
+    
+            var marker_a2b6cd02ca6b4482817344c0f8f12ceb = L.marker(
+                [37.72959507084574, -122.49346849500573],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f788b4d74f9e46cda9f04db436b4b004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2b6cd02ca6b4482817344c0f8f12ceb.setIcon(icon_f788b4d74f9e46cda9f04db436b4b004);
+        
+    
+        var popup_84bf33bd9754419ba708286711e66e13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69628ab6f463437f82080ca1afd5422b = $(`<div id="html_69628ab6f463437f82080ca1afd5422b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_84bf33bd9754419ba708286711e66e13.setContent(html_69628ab6f463437f82080ca1afd5422b);
+        
+
+        marker_a2b6cd02ca6b4482817344c0f8f12ceb.bindPopup(popup_84bf33bd9754419ba708286711e66e13)
+        ;
+
+        
+    
+    
+            var marker_d4cda92c71984fcb9532efd9273719ed = L.marker(
+                [37.80068789882473, -122.43033278747184],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_27b36f310a6342b2b66fd7ffa3894229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4cda92c71984fcb9532efd9273719ed.setIcon(icon_27b36f310a6342b2b66fd7ffa3894229);
+        
+    
+        var popup_9af3368e109f4b02919501b0690d9dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cf767ceedc2409fa36bd28feec2a21b = $(`<div id="html_9cf767ceedc2409fa36bd28feec2a21b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_9af3368e109f4b02919501b0690d9dd9.setContent(html_9cf767ceedc2409fa36bd28feec2a21b);
+        
+
+        marker_d4cda92c71984fcb9532efd9273719ed.bindPopup(popup_9af3368e109f4b02919501b0690d9dd9)
+        ;
+
+        
+    
+    
+            var marker_d8dd11aad97f45fb8fd0ea67ac9c7b89 = L.marker(
+                [37.74519273559692, -122.45262934380669],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_d19a7c39a26444c59004c1862dc2d552 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8dd11aad97f45fb8fd0ea67ac9c7b89.setIcon(icon_d19a7c39a26444c59004c1862dc2d552);
+        
+    
+        var popup_7449e0a595bd45baae19c101a4a53745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b3e5855336e4a73b9583ae8b1866f9b = $(`<div id="html_5b3e5855336e4a73b9583ae8b1866f9b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_7449e0a595bd45baae19c101a4a53745.setContent(html_5b3e5855336e4a73b9583ae8b1866f9b);
+        
+
+        marker_d8dd11aad97f45fb8fd0ea67ac9c7b89.bindPopup(popup_7449e0a595bd45baae19c101a4a53745)
+        ;
+
+        
+    
+    
+            var marker_3dadc4e2dfcb4136b0c5fe1f541f0e7d = L.marker(
+                [37.751170845199695, -122.39738894783345],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_0b6ce5a21d064d9e95e63bff4d210142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3dadc4e2dfcb4136b0c5fe1f541f0e7d.setIcon(icon_0b6ce5a21d064d9e95e63bff4d210142);
+        
+    
+        var popup_93fe46c8dc8845dbbf66076d4d55c8e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f96b629ea72f48c6b296833ccc8c43df = $(`<div id="html_f96b629ea72f48c6b296833ccc8c43df" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_93fe46c8dc8845dbbf66076d4d55c8e6.setContent(html_f96b629ea72f48c6b296833ccc8c43df);
+        
+
+        marker_3dadc4e2dfcb4136b0c5fe1f541f0e7d.bindPopup(popup_93fe46c8dc8845dbbf66076d4d55c8e6)
+        ;
+
+        
+    
+    
+            var marker_c82811de93434606bf4cdb27a6a7a979 = L.marker(
+                [37.78991810168596, -122.40697756369153],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_490ebaefe951498c9bfe7c3d9218b802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c82811de93434606bf4cdb27a6a7a979.setIcon(icon_490ebaefe951498c9bfe7c3d9218b802);
+        
+    
+        var popup_0f55de07d72c4986891a9da18c0d6f26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24c35f17fe2846378adcb54c04937964 = $(`<div id="html_24c35f17fe2846378adcb54c04937964" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_0f55de07d72c4986891a9da18c0d6f26.setContent(html_24c35f17fe2846378adcb54c04937964);
+        
+
+        marker_c82811de93434606bf4cdb27a6a7a979.bindPopup(popup_0f55de07d72c4986891a9da18c0d6f26)
+        ;
+
+        
+    
+    
+            var marker_2f036eb534c948588d78682f0d6dcb91 = L.marker(
+                [37.775420706711, -122.40340479147905],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_3853c0b23bbf4aed893af881d2495de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f036eb534c948588d78682f0d6dcb91.setIcon(icon_3853c0b23bbf4aed893af881d2495de9);
+        
+    
+        var popup_c8133dadc84340dd81c53923eb97f864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_849e2cae5fb54b5cb74348ba26cff991 = $(`<div id="html_849e2cae5fb54b5cb74348ba26cff991" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c8133dadc84340dd81c53923eb97f864.setContent(html_849e2cae5fb54b5cb74348ba26cff991);
+        
+
+        marker_2f036eb534c948588d78682f0d6dcb91.bindPopup(popup_c8133dadc84340dd81c53923eb97f864)
+        ;
+
+        
+    
+    
+            var marker_ff43c3ae225e4dfaac3da2271327f080 = L.marker(
+                [37.781863316866, -122.4143020525436],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_9ecce9ba5baa498c82aa18009cfdd7f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff43c3ae225e4dfaac3da2271327f080.setIcon(icon_9ecce9ba5baa498c82aa18009cfdd7f4);
+        
+    
+        var popup_34c18f63a1b0468fbc489155b648f725 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cc85d36d3d545b2a5ff2f8113f4363f = $(`<div id="html_7cc85d36d3d545b2a5ff2f8113f4363f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_34c18f63a1b0468fbc489155b648f725.setContent(html_7cc85d36d3d545b2a5ff2f8113f4363f);
+        
+
+        marker_ff43c3ae225e4dfaac3da2271327f080.bindPopup(popup_34c18f63a1b0468fbc489155b648f725)
+        ;
+
+        
+    
+    
+            var marker_5ebc0b75517e4246a2ab90ffcf37c3ef = L.marker(
+                [37.775420706711, -122.40340479147905],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_745cde2ef3424e2197ba88ff1e5bed1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ebc0b75517e4246a2ab90ffcf37c3ef.setIcon(icon_745cde2ef3424e2197ba88ff1e5bed1a);
+        
+    
+        var popup_1b794b7ec5204d19a653c0cd8d052e56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1216ed6801484896b7bb197c81146865 = $(`<div id="html_1216ed6801484896b7bb197c81146865" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_1b794b7ec5204d19a653c0cd8d052e56.setContent(html_1216ed6801484896b7bb197c81146865);
+        
+
+        marker_5ebc0b75517e4246a2ab90ffcf37c3ef.bindPopup(popup_1b794b7ec5204d19a653c0cd8d052e56)
+        ;
+
+        
+    
+    
+            var marker_6094ccc318cf42389c3ac1e923d71d17 = L.marker(
+                [37.745680288147504, -122.41250614556007],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_9fe8b0e38a4441e4aad668acbe67977a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6094ccc318cf42389c3ac1e923d71d17.setIcon(icon_9fe8b0e38a4441e4aad668acbe67977a);
+        
+    
+        var popup_6adae3cdd91c4a0a9db4d12b2a1b363d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ce5b3ddb34a4a0ea2bb063b96df976e = $(`<div id="html_5ce5b3ddb34a4a0ea2bb063b96df976e" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_6adae3cdd91c4a0a9db4d12b2a1b363d.setContent(html_5ce5b3ddb34a4a0ea2bb063b96df976e);
+        
+
+        marker_6094ccc318cf42389c3ac1e923d71d17.bindPopup(popup_6adae3cdd91c4a0a9db4d12b2a1b363d)
+        ;
+
+        
+    
+    
+            var marker_7a9a834a06e9471e80e7a436e06c3f34 = L.marker(
+                [37.75445241566371, -122.40834414753105],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_ec7bf4f6adbb4c87a875f34b891891fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a9a834a06e9471e80e7a436e06c3f34.setIcon(icon_ec7bf4f6adbb4c87a875f34b891891fb);
+        
+    
+        var popup_d79ffeef2ccf40618dbf180936ecc99b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a081e1f285f9472ab6b8a2748b3beb90 = $(`<div id="html_a081e1f285f9472ab6b8a2748b3beb90" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_d79ffeef2ccf40618dbf180936ecc99b.setContent(html_a081e1f285f9472ab6b8a2748b3beb90);
+        
+
+        marker_7a9a834a06e9471e80e7a436e06c3f34.bindPopup(popup_d79ffeef2ccf40618dbf180936ecc99b)
+        ;
+
+        
+    
+    
+            var marker_12eecc109b1343bfa9be7431f01a9768 = L.marker(
+                [37.793136011917134, -122.43638322274604],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_5cf6e87b93724816a41a975c9f3dc723 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12eecc109b1343bfa9be7431f01a9768.setIcon(icon_5cf6e87b93724816a41a975c9f3dc723);
+        
+    
+        var popup_4e28af7cc9dd4d2c8e0234235ec9c2db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_040ee02737c14efba24cdb231ace2eed = $(`<div id="html_040ee02737c14efba24cdb231ace2eed" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_4e28af7cc9dd4d2c8e0234235ec9c2db.setContent(html_040ee02737c14efba24cdb231ace2eed);
+        
+
+        marker_12eecc109b1343bfa9be7431f01a9768.bindPopup(popup_4e28af7cc9dd4d2c8e0234235ec9c2db)
+        ;
+
+        
+    
+    
+            var marker_e097191c15684e70bc82513987440cfb = L.marker(
+                [37.77951403006305, -122.41356409174415],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_b2ad87e4b18b40a5bb8777d614e69ed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e097191c15684e70bc82513987440cfb.setIcon(icon_b2ad87e4b18b40a5bb8777d614e69ed7);
+        
+    
+        var popup_3af733a916c84a8b95064d19e4169115 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb4bf5b47dc44343945323362db48ac5 = $(`<div id="html_eb4bf5b47dc44343945323362db48ac5" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_3af733a916c84a8b95064d19e4169115.setContent(html_eb4bf5b47dc44343945323362db48ac5);
+        
+
+        marker_e097191c15684e70bc82513987440cfb.bindPopup(popup_3af733a916c84a8b95064d19e4169115)
+        ;
+
+        
+    
+    
+            var marker_d1d82ddee9234e57afe96de9736b7c2e = L.marker(
+                [37.776628022785054, -122.4254162900708],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_1769d87fbd1d40028842d466f0a9ca68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1d82ddee9234e57afe96de9736b7c2e.setIcon(icon_1769d87fbd1d40028842d466f0a9ca68);
+        
+    
+        var popup_30b9e1c91d9f4b47876e94ef40824acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d41c7248c232484ca68a3a28521d8812 = $(`<div id="html_d41c7248c232484ca68a3a28521d8812" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_30b9e1c91d9f4b47876e94ef40824acc.setContent(html_d41c7248c232484ca68a3a28521d8812);
+        
+
+        marker_d1d82ddee9234e57afe96de9736b7c2e.bindPopup(popup_30b9e1c91d9f4b47876e94ef40824acc)
+        ;
+
+        
+    
+    
+            var marker_1f259626c4e44f74a93b66a4a6136c24 = L.marker(
+                [37.73745271649744, -122.475287886078],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_944313447e664adfbaa703d3270e9a50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f259626c4e44f74a93b66a4a6136c24.setIcon(icon_944313447e664adfbaa703d3270e9a50);
+        
+    
+        var popup_74cf0bf579d04a0b8db207f1be2c74d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a90dbc2b30c46ac85cf873607042c76 = $(`<div id="html_5a90dbc2b30c46ac85cf873607042c76" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_74cf0bf579d04a0b8db207f1be2c74d4.setContent(html_5a90dbc2b30c46ac85cf873607042c76);
+        
+
+        marker_1f259626c4e44f74a93b66a4a6136c24.bindPopup(popup_74cf0bf579d04a0b8db207f1be2c74d4)
+        ;
+
+        
+    
+    
+            var marker_baf0be2992ad432dbc5d29c3f8a7a395 = L.marker(
+                [37.71743376416217, -122.40212081575842],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_21ebbb1f9eb647b5896209cb3a7bfb70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baf0be2992ad432dbc5d29c3f8a7a395.setIcon(icon_21ebbb1f9eb647b5896209cb3a7bfb70);
+        
+    
+        var popup_c351ecb0f38048eba36ff997d63eeda3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_993391dd0f264d9b9741c70163c48d3e = $(`<div id="html_993391dd0f264d9b9741c70163c48d3e" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c351ecb0f38048eba36ff997d63eeda3.setContent(html_993391dd0f264d9b9741c70163c48d3e);
+        
+
+        marker_baf0be2992ad432dbc5d29c3f8a7a395.bindPopup(popup_c351ecb0f38048eba36ff997d63eeda3)
+        ;
+
+        
+    
+    
+            var marker_89e2f9ba86c641339ba795e2fc099478 = L.marker(
+                [37.75223916526247, -122.41844818610123],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_e436ce7cdfca4b92b255c8ca2488c420 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89e2f9ba86c641339ba795e2fc099478.setIcon(icon_e436ce7cdfca4b92b255c8ca2488c420);
+        
+    
+        var popup_67d37700494a4461a7167651c5577317 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4aa683044cd4eaba8913a3aae7b1ec4 = $(`<div id="html_a4aa683044cd4eaba8913a3aae7b1ec4" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_67d37700494a4461a7167651c5577317.setContent(html_a4aa683044cd4eaba8913a3aae7b1ec4);
+        
+
+        marker_89e2f9ba86c641339ba795e2fc099478.bindPopup(popup_67d37700494a4461a7167651c5577317)
+        ;
+
+        
+    
+    
+            var marker_05222460996342dbbb7395c6928bd2cf = L.marker(
+                [37.78302957160442, -122.4310463660887],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_09aa11eb4b4c40a98e4b9460064178a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05222460996342dbbb7395c6928bd2cf.setIcon(icon_09aa11eb4b4c40a98e4b9460064178a7);
+        
+    
+        var popup_54e1b6afd5f14c65bb62a14bea28950f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_631d5fd36a8649b186faa9eed0fdd531 = $(`<div id="html_631d5fd36a8649b186faa9eed0fdd531" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_54e1b6afd5f14c65bb62a14bea28950f.setContent(html_631d5fd36a8649b186faa9eed0fdd531);
+        
+
+        marker_05222460996342dbbb7395c6928bd2cf.bindPopup(popup_54e1b6afd5f14c65bb62a14bea28950f)
+        ;
+
+        
+    
+    
+            var marker_0ebec85219224a16bb2722d44ec1dd44 = L.marker(
+                [37.778643809693385, -122.41744858270133],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_b09980039d8144c9b1270d2ea0a40b83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ebec85219224a16bb2722d44ec1dd44.setIcon(icon_b09980039d8144c9b1270d2ea0a40b83);
+        
+    
+        var popup_069ccc18ed6446d9a2493f753229cb94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c9cbc27782949b6b177ed670f5566c3 = $(`<div id="html_2c9cbc27782949b6b177ed670f5566c3" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_069ccc18ed6446d9a2493f753229cb94.setContent(html_2c9cbc27782949b6b177ed670f5566c3);
+        
+
+        marker_0ebec85219224a16bb2722d44ec1dd44.bindPopup(popup_069ccc18ed6446d9a2493f753229cb94)
+        ;
+
+        
+    
+    
+            var marker_26ccb617243c402a81bd356146f29d12 = L.marker(
+                [37.79284128404467, -122.42451983500885],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_9f6aceec22fb4958be2966203babdd8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_26ccb617243c402a81bd356146f29d12.setIcon(icon_9f6aceec22fb4958be2966203babdd8e);
+        
+    
+        var popup_8fe69b2f745c4125a79581f07c4d216d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fb11d35f8a24535ae71dca567f3b18f = $(`<div id="html_4fb11d35f8a24535ae71dca567f3b18f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_8fe69b2f745c4125a79581f07c4d216d.setContent(html_4fb11d35f8a24535ae71dca567f3b18f);
+        
+
+        marker_26ccb617243c402a81bd356146f29d12.bindPopup(popup_8fe69b2f745c4125a79581f07c4d216d)
+        ;
+
+        
+    
+    
+            var marker_588f35dfa6bb405b8d4c3b64f0086299 = L.marker(
+                [37.754098688206746, -122.41423384903842],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_3951602eeef541de86e8a5225da2af15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_588f35dfa6bb405b8d4c3b64f0086299.setIcon(icon_3951602eeef541de86e8a5225da2af15);
+        
+    
+        var popup_06ce9ba2d240469db58f1412e0529048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd373225785a425196a42085805af84a = $(`<div id="html_cd373225785a425196a42085805af84a" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_06ce9ba2d240469db58f1412e0529048.setContent(html_cd373225785a425196a42085805af84a);
+        
+
+        marker_588f35dfa6bb405b8d4c3b64f0086299.bindPopup(popup_06ce9ba2d240469db58f1412e0529048)
+        ;
+
+        
+    
+    
+            var marker_1ac191c1520c4c1891717d3b66b1bedd = L.marker(
+                [37.754098688206746, -122.41423384903842],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_94ffa295d2d944d69b63f5f416cf568e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ac191c1520c4c1891717d3b66b1bedd.setIcon(icon_94ffa295d2d944d69b63f5f416cf568e);
+        
+    
+        var popup_3f567fcd09ed4b3e9ca7877f570198a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41eea133b3d1431b8a21bd26146cf100 = $(`<div id="html_41eea133b3d1431b8a21bd26146cf100" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_3f567fcd09ed4b3e9ca7877f570198a6.setContent(html_41eea133b3d1431b8a21bd26146cf100);
+        
+
+        marker_1ac191c1520c4c1891717d3b66b1bedd.bindPopup(popup_3f567fcd09ed4b3e9ca7877f570198a6)
+        ;
+
+        
+    
+    
+            var marker_9cbf43cd85f14122834ade22ca60b0b8 = L.marker(
+                [37.771493996941594, -122.50775013100386],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_16806a4611794a3fa0485ab4dd899ec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9cbf43cd85f14122834ade22ca60b0b8.setIcon(icon_16806a4611794a3fa0485ab4dd899ec7);
+        
+    
+        var popup_e20ddcd12da1418097e7933440b7a7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ac61a544c284e86b5f064e4466d9939 = $(`<div id="html_2ac61a544c284e86b5f064e4466d9939" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e20ddcd12da1418097e7933440b7a7f0.setContent(html_2ac61a544c284e86b5f064e4466d9939);
+        
+
+        marker_9cbf43cd85f14122834ade22ca60b0b8.bindPopup(popup_e20ddcd12da1418097e7933440b7a7f0)
+        ;
+
+        
+    
+    
+            var marker_f48e07d8322b4d1480113440f8ec2184 = L.marker(
+                [37.71830220476605, -122.4744446395947],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f99cf7db6cf447b69c68ce9789e2ea92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f48e07d8322b4d1480113440f8ec2184.setIcon(icon_f99cf7db6cf447b69c68ce9789e2ea92);
+        
+    
+        var popup_6a85a7fbbb494a0d9825dc7d37754e8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de2c8ee50e124426bfbd8b7372dbdc85 = $(`<div id="html_de2c8ee50e124426bfbd8b7372dbdc85" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_6a85a7fbbb494a0d9825dc7d37754e8b.setContent(html_de2c8ee50e124426bfbd8b7372dbdc85);
+        
+
+        marker_f48e07d8322b4d1480113440f8ec2184.bindPopup(popup_6a85a7fbbb494a0d9825dc7d37754e8b)
+        ;
+
+        
+    
+    
+            var marker_e8e9158cbfc24200802658dd4c02923c = L.marker(
+                [37.76457523176145, -122.42756259698538],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_e134073f25c74977a404ac73c46e8af3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e8e9158cbfc24200802658dd4c02923c.setIcon(icon_e134073f25c74977a404ac73c46e8af3);
+        
+    
+        var popup_4430ac8df9c24f239685a8cca72195c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a6cb3fced845c2886a43c418db2f27 = $(`<div id="html_a2a6cb3fced845c2886a43c418db2f27" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_4430ac8df9c24f239685a8cca72195c5.setContent(html_a2a6cb3fced845c2886a43c418db2f27);
+        
+
+        marker_e8e9158cbfc24200802658dd4c02923c.bindPopup(popup_4430ac8df9c24f239685a8cca72195c5)
+        ;
+
+        
+    
+    
+            var marker_7dfd0bd3384442f0bfd0cc594c4ae490 = L.marker(
+                [37.787437830911216, -122.4192030042683],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_297d1398dcd34bf69358ec66fb0e7444 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7dfd0bd3384442f0bfd0cc594c4ae490.setIcon(icon_297d1398dcd34bf69358ec66fb0e7444);
+        
+    
+        var popup_5cf967314e654c629ac46698b5e20951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d2556f9f7ba4ccca8ee1d521b242ce8 = $(`<div id="html_9d2556f9f7ba4ccca8ee1d521b242ce8" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_5cf967314e654c629ac46698b5e20951.setContent(html_9d2556f9f7ba4ccca8ee1d521b242ce8);
+        
+
+        marker_7dfd0bd3384442f0bfd0cc594c4ae490.bindPopup(popup_5cf967314e654c629ac46698b5e20951)
+        ;
+
+        
+    
+    
+            var marker_f1c425b4e10c43b8998e42d383521d56 = L.marker(
+                [37.7493688284532, -122.41269014230792],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_fd158ec7a34f4dbaa0d6f4d41227c814 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f1c425b4e10c43b8998e42d383521d56.setIcon(icon_fd158ec7a34f4dbaa0d6f4d41227c814);
+        
+    
+        var popup_29e7302d2d0c4091bf4039e7f4bceaf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e03348dc62614c638b9e5e2787e969cd = $(`<div id="html_e03348dc62614c638b9e5e2787e969cd" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_29e7302d2d0c4091bf4039e7f4bceaf0.setContent(html_e03348dc62614c638b9e5e2787e969cd);
+        
+
+        marker_f1c425b4e10c43b8998e42d383521d56.bindPopup(popup_29e7302d2d0c4091bf4039e7f4bceaf0)
+        ;
+
+        
+    
+    
+            var marker_a2dffba441c6418b87705ccaaed02a79 = L.marker(
+                [37.70920104623789, -122.43460928035209],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_3c377351d99247eaa40bea776415df55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2dffba441c6418b87705ccaaed02a79.setIcon(icon_3c377351d99247eaa40bea776415df55);
+        
+    
+        var popup_a5f4c3d9e0a6473ba9096292561d09c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2ab92ff1683490a9523f310fca3d145 = $(`<div id="html_b2ab92ff1683490a9523f310fca3d145" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_a5f4c3d9e0a6473ba9096292561d09c9.setContent(html_b2ab92ff1683490a9523f310fca3d145);
+        
+
+        marker_a2dffba441c6418b87705ccaaed02a79.bindPopup(popup_a5f4c3d9e0a6473ba9096292561d09c9)
+        ;
+
+        
+    
+    
+            var marker_d2f2aabfd31f4c11b8f7c5576c8a407e = L.marker(
+                [37.78792093755329, -122.41088282555114],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_4c310b41dc2b4d2891cbc3204b6b4e20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2f2aabfd31f4c11b8f7c5576c8a407e.setIcon(icon_4c310b41dc2b4d2891cbc3204b6b4e20);
+        
+    
+        var popup_88ee77eb75fc42c392dbef2f4121b4f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc744b73b8d64c7888b530e1ee6eebe4 = $(`<div id="html_cc744b73b8d64c7888b530e1ee6eebe4" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_88ee77eb75fc42c392dbef2f4121b4f6.setContent(html_cc744b73b8d64c7888b530e1ee6eebe4);
+        
+
+        marker_d2f2aabfd31f4c11b8f7c5576c8a407e.bindPopup(popup_88ee77eb75fc42c392dbef2f4121b4f6)
+        ;
+
+        
+    
+    
+            var marker_f86e84a969124a228709ed9b3dad9cdd = L.marker(
+                [37.80045664710391, -122.40143275472195],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_0014c00a9d074a56a600d934e037747b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f86e84a969124a228709ed9b3dad9cdd.setIcon(icon_0014c00a9d074a56a600d934e037747b);
+        
+    
+        var popup_53ce1aa9223e42e096a79f2e2693ef19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39d59520a1ec4581ab8b3f97ebbc1e78 = $(`<div id="html_39d59520a1ec4581ab8b3f97ebbc1e78" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_53ce1aa9223e42e096a79f2e2693ef19.setContent(html_39d59520a1ec4581ab8b3f97ebbc1e78);
+        
+
+        marker_f86e84a969124a228709ed9b3dad9cdd.bindPopup(popup_53ce1aa9223e42e096a79f2e2693ef19)
+        ;
+
+        
+    
+    
+            var marker_8e2ed6a76173458f9759fc06591cee4d = L.marker(
+                [37.76844015856147, -122.39742619472588],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_78d631dbf1924c3fae0a1523404b0ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e2ed6a76173458f9759fc06591cee4d.setIcon(icon_78d631dbf1924c3fae0a1523404b0ebf);
+        
+    
+        var popup_9c7d30cdb0494c718dbe636dbcb1fff6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dc9ba0a5fa44196948915edb63e0bcb = $(`<div id="html_5dc9ba0a5fa44196948915edb63e0bcb" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_9c7d30cdb0494c718dbe636dbcb1fff6.setContent(html_5dc9ba0a5fa44196948915edb63e0bcb);
+        
+
+        marker_8e2ed6a76173458f9759fc06591cee4d.bindPopup(popup_9c7d30cdb0494c718dbe636dbcb1fff6)
+        ;
+
+        
+    
+    
+            var marker_c7a2a54084584e779ddd58c21fd85937 = L.marker(
+                [37.77159085132986, -122.50561064518473],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_c08277a3c0034b29bbd218fb2286aa7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7a2a54084584e779ddd58c21fd85937.setIcon(icon_c08277a3c0034b29bbd218fb2286aa7d);
+        
+    
+        var popup_4efab9349a8b4e50a5cde9c860640864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e82e75d44ac41118576bd73a8757d73 = $(`<div id="html_5e82e75d44ac41118576bd73a8757d73" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_4efab9349a8b4e50a5cde9c860640864.setContent(html_5e82e75d44ac41118576bd73a8757d73);
+        
+
+        marker_c7a2a54084584e779ddd58c21fd85937.bindPopup(popup_4efab9349a8b4e50a5cde9c860640864)
+        ;
+
+        
+    
+    
+            var marker_0d9bcf99153648c88c7a91c5cffe367e = L.marker(
+                [37.77753219352177, -122.44087952185316],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_a7e0ed10be1f4d3eae5512aa40fd9383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d9bcf99153648c88c7a91c5cffe367e.setIcon(icon_a7e0ed10be1f4d3eae5512aa40fd9383);
+        
+    
+        var popup_12db216ef16241f9945124c13e4ef3e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b97180e03fd46d99eca35a885df6b84 = $(`<div id="html_8b97180e03fd46d99eca35a885df6b84" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_12db216ef16241f9945124c13e4ef3e6.setContent(html_8b97180e03fd46d99eca35a885df6b84);
+        
+
+        marker_0d9bcf99153648c88c7a91c5cffe367e.bindPopup(popup_12db216ef16241f9945124c13e4ef3e6)
+        ;
+
+        
+    
+    
+            var marker_b651cd25bfdc43c38bbfb07b0d88fbba = L.marker(
+                [37.758239605490004, -122.42464427143184],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_55dd3fab07ac4515ba16dd1789adcf71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b651cd25bfdc43c38bbfb07b0d88fbba.setIcon(icon_55dd3fab07ac4515ba16dd1789adcf71);
+        
+    
+        var popup_3f7f17c420a143a4a59b112f15527ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fc8b55a8ff741359d4e527b06f2b679 = $(`<div id="html_9fc8b55a8ff741359d4e527b06f2b679" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_3f7f17c420a143a4a59b112f15527ccd.setContent(html_9fc8b55a8ff741359d4e527b06f2b679);
+        
+
+        marker_b651cd25bfdc43c38bbfb07b0d88fbba.bindPopup(popup_3f7f17c420a143a4a59b112f15527ccd)
+        ;
+
+        
+    
+    
+            var marker_3979b4972a5745df83aa741a2b42f303 = L.marker(
+                [37.806074922624504, -122.44000281007312],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_9b3309df5a964b348c056de813fe9315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3979b4972a5745df83aa741a2b42f303.setIcon(icon_9b3309df5a964b348c056de813fe9315);
+        
+    
+        var popup_31f8adcfaee946c182f81c8420804b5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c81ddc530a8443e6bc8a5f13dfb5ef4f = $(`<div id="html_c81ddc530a8443e6bc8a5f13dfb5ef4f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_31f8adcfaee946c182f81c8420804b5c.setContent(html_c81ddc530a8443e6bc8a5f13dfb5ef4f);
+        
+
+        marker_3979b4972a5745df83aa741a2b42f303.bindPopup(popup_31f8adcfaee946c182f81c8420804b5c)
+        ;
+
+        
+    
+    
+            var marker_e56a3fc5454744b29f838c5ab21a1310 = L.marker(
+                [37.78418935014246, -122.4076335207421],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_c02f3b6774f04672b9c6ae5f8865d2d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e56a3fc5454744b29f838c5ab21a1310.setIcon(icon_c02f3b6774f04672b9c6ae5f8865d2d0);
+        
+    
+        var popup_0d06f37caf0d4a08bad099898a78476f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00c1dfb1866942bd967e87938e05466e = $(`<div id="html_00c1dfb1866942bd967e87938e05466e" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_0d06f37caf0d4a08bad099898a78476f.setContent(html_00c1dfb1866942bd967e87938e05466e);
+        
+
+        marker_e56a3fc5454744b29f838c5ab21a1310.bindPopup(popup_0d06f37caf0d4a08bad099898a78476f)
+        ;
+
+        
+    
+    
+            var marker_534b3c8a021146c8a5aa2b7ca48ec3a7 = L.marker(
+                [37.78418935014246, -122.4076335207421],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_7c10a81f782946d2bc432fe8d4f8d908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_534b3c8a021146c8a5aa2b7ca48ec3a7.setIcon(icon_7c10a81f782946d2bc432fe8d4f8d908);
+        
+    
+        var popup_e40fde44b2844b4eb38e98d83e0bc35b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11177069557f47ebb26f7354da0f0e98 = $(`<div id="html_11177069557f47ebb26f7354da0f0e98" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e40fde44b2844b4eb38e98d83e0bc35b.setContent(html_11177069557f47ebb26f7354da0f0e98);
+        
+
+        marker_534b3c8a021146c8a5aa2b7ca48ec3a7.bindPopup(popup_e40fde44b2844b4eb38e98d83e0bc35b)
+        ;
+
+        
+    
+    
+            var marker_5d0c42706b954e9abe402fc9285c9d3d = L.marker(
+                [37.73401521807227, -122.39097173455052],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_1a77a92b028e49739e618ec354f35a46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d0c42706b954e9abe402fc9285c9d3d.setIcon(icon_1a77a92b028e49739e618ec354f35a46);
+        
+    
+        var popup_e3d8c208b9514e96b997e02cfda9499d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b552fe0bac5f4d57bbc3ab5dde9aad98 = $(`<div id="html_b552fe0bac5f4d57bbc3ab5dde9aad98" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e3d8c208b9514e96b997e02cfda9499d.setContent(html_b552fe0bac5f4d57bbc3ab5dde9aad98);
+        
+
+        marker_5d0c42706b954e9abe402fc9285c9d3d.bindPopup(popup_e3d8c208b9514e96b997e02cfda9499d)
+        ;
+
+        
+    
+    
+            var marker_693bdfef24214965a804e7dd61cb07a8 = L.marker(
+                [37.784828309361046, -122.40397126905745],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_c4281c4b1c2641e991390a9df9df6455 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_693bdfef24214965a804e7dd61cb07a8.setIcon(icon_c4281c4b1c2641e991390a9df9df6455);
+        
+    
+        var popup_f7270e6e160540859eef6aba9f336c84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8ae2ede49994d6c993bc04edf7d526b = $(`<div id="html_d8ae2ede49994d6c993bc04edf7d526b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_f7270e6e160540859eef6aba9f336c84.setContent(html_d8ae2ede49994d6c993bc04edf7d526b);
+        
+
+        marker_693bdfef24214965a804e7dd61cb07a8.bindPopup(popup_f7270e6e160540859eef6aba9f336c84)
+        ;
+
+        
+    
+    
+            var marker_a855deb045594f288b271e9073bc9e51 = L.marker(
+                [37.73716994462029, -122.38986561033232],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_ff875f578e4a4b9680b65df7e3ba40a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a855deb045594f288b271e9073bc9e51.setIcon(icon_ff875f578e4a4b9680b65df7e3ba40a0);
+        
+    
+        var popup_becd2633379648a3ab81853449c94423 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23116446ee934919a6fcb8ccc7ee1a52 = $(`<div id="html_23116446ee934919a6fcb8ccc7ee1a52" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_becd2633379648a3ab81853449c94423.setContent(html_23116446ee934919a6fcb8ccc7ee1a52);
+        
+
+        marker_a855deb045594f288b271e9073bc9e51.bindPopup(popup_becd2633379648a3ab81853449c94423)
+        ;
+
+        
+    
+    
+            var marker_d46cc6876be7493ab44b6babc28114d5 = L.marker(
+                [37.767785058633365, -122.4531901983405],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_e221743b9762466996bc41a3e1f572d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d46cc6876be7493ab44b6babc28114d5.setIcon(icon_e221743b9762466996bc41a3e1f572d5);
+        
+    
+        var popup_96ff9119bc6247e8887e9c7d89f0001a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ac87d66e41545098cbe6682e664f48b = $(`<div id="html_4ac87d66e41545098cbe6682e664f48b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_96ff9119bc6247e8887e9c7d89f0001a.setContent(html_4ac87d66e41545098cbe6682e664f48b);
+        
+
+        marker_d46cc6876be7493ab44b6babc28114d5.bindPopup(popup_96ff9119bc6247e8887e9c7d89f0001a)
+        ;
+
+        
+    
+    
+            var marker_4801ce2144fd4e8e95cfbe99f8d0bc60 = L.marker(
+                [37.798740342060206, -122.4375159948428],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f382421d36244e6ca5102faf4782c582 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4801ce2144fd4e8e95cfbe99f8d0bc60.setIcon(icon_f382421d36244e6ca5102faf4782c582);
+        
+    
+        var popup_ad7afe2758244d0886a94e98c0cb941d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf6392c2b5f4e7491b364e6523929d6 = $(`<div id="html_daf6392c2b5f4e7491b364e6523929d6" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_ad7afe2758244d0886a94e98c0cb941d.setContent(html_daf6392c2b5f4e7491b364e6523929d6);
+        
+
+        marker_4801ce2144fd4e8e95cfbe99f8d0bc60.bindPopup(popup_ad7afe2758244d0886a94e98c0cb941d)
+        ;
+
+        
+    
+    
+            var marker_8a0db1c3e21d4a5d9fd66118aff88f53 = L.marker(
+                [37.78126734680996, -122.43315586900265],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_66f073ef7c6342759de680220d4bdc57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a0db1c3e21d4a5d9fd66118aff88f53.setIcon(icon_66f073ef7c6342759de680220d4bdc57);
+        
+    
+        var popup_c393c153e4a64a95801a6b543270bab0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7ccc8fbcc904baf9f502255c173da5f = $(`<div id="html_e7ccc8fbcc904baf9f502255c173da5f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c393c153e4a64a95801a6b543270bab0.setContent(html_e7ccc8fbcc904baf9f502255c173da5f);
+        
+
+        marker_8a0db1c3e21d4a5d9fd66118aff88f53.bindPopup(popup_c393c153e4a64a95801a6b543270bab0)
+        ;
+
+        
+    
+    
+            var marker_fe498b20997f4e8abe1bfaabfdf4204d = L.marker(
+                [37.79466465381535, -122.40476763585308],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_8497fa13ca544080a7d5a978db689c99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe498b20997f4e8abe1bfaabfdf4204d.setIcon(icon_8497fa13ca544080a7d5a978db689c99);
+        
+    
+        var popup_21efa360dcd94c4fb1bf39a23617f60a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9209b5b737b84f59bc57f0785000bd37 = $(`<div id="html_9209b5b737b84f59bc57f0785000bd37" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_21efa360dcd94c4fb1bf39a23617f60a.setContent(html_9209b5b737b84f59bc57f0785000bd37);
+        
+
+        marker_fe498b20997f4e8abe1bfaabfdf4204d.bindPopup(popup_21efa360dcd94c4fb1bf39a23617f60a)
+        ;
+
+        
+    
+    
+            var marker_19b1f46a85124e9a8d2d3d57520d0c4e = L.marker(
+                [37.72867700578253, -122.4252896247473],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_ccb9a96dcd2946388916e7e2aa72cfad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19b1f46a85124e9a8d2d3d57520d0c4e.setIcon(icon_ccb9a96dcd2946388916e7e2aa72cfad);
+        
+    
+        var popup_d7dc1652f1e04a619c71cfc06231394f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e0673423a204880944e56e5e2014293 = $(`<div id="html_5e0673423a204880944e56e5e2014293" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_d7dc1652f1e04a619c71cfc06231394f.setContent(html_5e0673423a204880944e56e5e2014293);
+        
+
+        marker_19b1f46a85124e9a8d2d3d57520d0c4e.bindPopup(popup_d7dc1652f1e04a619c71cfc06231394f)
+        ;
+
+        
+    
+    
+            var marker_5b5042db52664a2db33040b63376d7f5 = L.marker(
+                [37.75856416917093, -122.40672532952942],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_3d8ed9f75de244289355c1cd8c3843b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b5042db52664a2db33040b63376d7f5.setIcon(icon_3d8ed9f75de244289355c1cd8c3843b8);
+        
+    
+        var popup_0d93b1de6efc401ab206991a64ef3e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_721191aa83b040579354945f954f9b27 = $(`<div id="html_721191aa83b040579354945f954f9b27" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_0d93b1de6efc401ab206991a64ef3e1c.setContent(html_721191aa83b040579354945f954f9b27);
+        
+
+        marker_5b5042db52664a2db33040b63376d7f5.bindPopup(popup_0d93b1de6efc401ab206991a64ef3e1c)
+        ;
+
+        
+    
+    
+            var marker_7c263b3cb2aa460485b370a94588206d = L.marker(
+                [37.781114010103, -122.45943946203465],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_ccaf33a74d6d405598e5efe84e341154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c263b3cb2aa460485b370a94588206d.setIcon(icon_ccaf33a74d6d405598e5efe84e341154);
+        
+    
+        var popup_0e9f5ac54e5345bc958a26cb04814538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4dee8d787ca4decae62d64085fddb14 = $(`<div id="html_c4dee8d787ca4decae62d64085fddb14" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_0e9f5ac54e5345bc958a26cb04814538.setContent(html_c4dee8d787ca4decae62d64085fddb14);
+        
+
+        marker_7c263b3cb2aa460485b370a94588206d.bindPopup(popup_0e9f5ac54e5345bc958a26cb04814538)
+        ;
+
+        
+    
+    
+            var marker_73d9379f83e740b08f0c193a16d94fd7 = L.marker(
+                [37.76632253162096, -122.42472387042419],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_804d4713c2e142c1b9f8887a108a6603 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_73d9379f83e740b08f0c193a16d94fd7.setIcon(icon_804d4713c2e142c1b9f8887a108a6603);
+        
+    
+        var popup_b0e7b3a5f79d4fa38210b22b761cabed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_466eebb9439e444c9c5418538b5cdd63 = $(`<div id="html_466eebb9439e444c9c5418538b5cdd63" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b0e7b3a5f79d4fa38210b22b761cabed.setContent(html_466eebb9439e444c9c5418538b5cdd63);
+        
+
+        marker_73d9379f83e740b08f0c193a16d94fd7.bindPopup(popup_b0e7b3a5f79d4fa38210b22b761cabed)
+        ;
+
+        
+    
+    
+            var marker_f54cbd03bbed4261a519b7c63f509d1d = L.marker(
+                [37.76249509865104, -122.39701495403999],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_88e7259a24084048a6335f532fcf823b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f54cbd03bbed4261a519b7c63f509d1d.setIcon(icon_88e7259a24084048a6335f532fcf823b);
+        
+    
+        var popup_c296ffcf8f4f4d8aba201d0a3bea002d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bd661a979014b3995b0f7f725e9f1b5 = $(`<div id="html_2bd661a979014b3995b0f7f725e9f1b5" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_c296ffcf8f4f4d8aba201d0a3bea002d.setContent(html_2bd661a979014b3995b0f7f725e9f1b5);
+        
+
+        marker_f54cbd03bbed4261a519b7c63f509d1d.bindPopup(popup_c296ffcf8f4f4d8aba201d0a3bea002d)
+        ;
+
+        
+    
+    
+            var marker_012ce15f72b54735bc90f190521d603a = L.marker(
+                [37.780074574633424, -122.4202504826025],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f313b16c2f5f4ca4ae90dc8e5bfd0583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_012ce15f72b54735bc90f190521d603a.setIcon(icon_f313b16c2f5f4ca4ae90dc8e5bfd0583);
+        
+    
+        var popup_141bd9623abd4bf8835c818ab41e6d5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e358f30c0e004c5a989976169aad6995 = $(`<div id="html_e358f30c0e004c5a989976169aad6995" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_141bd9623abd4bf8835c818ab41e6d5a.setContent(html_e358f30c0e004c5a989976169aad6995);
+        
+
+        marker_012ce15f72b54735bc90f190521d603a.bindPopup(popup_141bd9623abd4bf8835c818ab41e6d5a)
+        ;
+
+        
+    
+    
+            var marker_d430bbd77ac147c5b6fe0592a8c64ed1 = L.marker(
+                [37.77619162146718, -122.42276686301862],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_e500b3d00cb2478a929dd718d630a186 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d430bbd77ac147c5b6fe0592a8c64ed1.setIcon(icon_e500b3d00cb2478a929dd718d630a186);
+        
+    
+        var popup_032f00900d154dc5af20f1fef8b364a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_100b3ca3ebd5440492d2a1cec68c500b = $(`<div id="html_100b3ca3ebd5440492d2a1cec68c500b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_032f00900d154dc5af20f1fef8b364a1.setContent(html_100b3ca3ebd5440492d2a1cec68c500b);
+        
+
+        marker_d430bbd77ac147c5b6fe0592a8c64ed1.bindPopup(popup_032f00900d154dc5af20f1fef8b364a1)
+        ;
+
+        
+    
+    
+            var marker_dc38fda41ec747a7a4fc154e65a62ffe = L.marker(
+                [37.78072703534918, -122.41950798176714],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_98386cc959454b4398c450920f3e2434 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc38fda41ec747a7a4fc154e65a62ffe.setIcon(icon_98386cc959454b4398c450920f3e2434);
+        
+    
+        var popup_8e2774baf37343a3afcaeccfd4f0168c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c860848486e4f8285b50664ea9815e4 = $(`<div id="html_7c860848486e4f8285b50664ea9815e4" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_8e2774baf37343a3afcaeccfd4f0168c.setContent(html_7c860848486e4f8285b50664ea9815e4);
+        
+
+        marker_dc38fda41ec747a7a4fc154e65a62ffe.bindPopup(popup_8e2774baf37343a3afcaeccfd4f0168c)
+        ;
+
+        
+    
+    
+            var marker_fc2a686cda9c46b0a8781a980bd28bc5 = L.marker(
+                [37.78072703534918, -122.41950798176714],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_c30b0962d32347c585539213a9c35dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc2a686cda9c46b0a8781a980bd28bc5.setIcon(icon_c30b0962d32347c585539213a9c35dc9);
+        
+    
+        var popup_4c84f20bafac4ce89c036f2412852c8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b98fb9c55d0f4b60adbd3b0800fa2b64 = $(`<div id="html_b98fb9c55d0f4b60adbd3b0800fa2b64" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_4c84f20bafac4ce89c036f2412852c8c.setContent(html_b98fb9c55d0f4b60adbd3b0800fa2b64);
+        
+
+        marker_fc2a686cda9c46b0a8781a980bd28bc5.bindPopup(popup_4c84f20bafac4ce89c036f2412852c8c)
+        ;
+
+        
+    
+    
+            var marker_b95062ff5c154c218e9d5cf4c7925c4c = L.marker(
+                [37.759288789168274, -122.43485395576222],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_f7ce49dd67fa4f2f8b806d1066abd0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b95062ff5c154c218e9d5cf4c7925c4c.setIcon(icon_f7ce49dd67fa4f2f8b806d1066abd0f4);
+        
+    
+        var popup_d1961d6b57084cf58053cb44fc13fd14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c47d68850514e7ba5ec7f8a221a7c36 = $(`<div id="html_7c47d68850514e7ba5ec7f8a221a7c36" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_d1961d6b57084cf58053cb44fc13fd14.setContent(html_7c47d68850514e7ba5ec7f8a221a7c36);
+        
+
+        marker_b95062ff5c154c218e9d5cf4c7925c4c.bindPopup(popup_d1961d6b57084cf58053cb44fc13fd14)
+        ;
+
+        
+    
+    
+            var marker_395444b232e3442f9dc9ffc0a9405ec7 = L.marker(
+                [37.77589844620397, -122.418480564808],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_87dfec74c2f9466c92750908867e124e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_395444b232e3442f9dc9ffc0a9405ec7.setIcon(icon_87dfec74c2f9466c92750908867e124e);
+        
+    
+        var popup_e0d37d091c8f4f45b9c64d68a08933e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f141a8cfdcd4a8caf2f84cf1791dd22 = $(`<div id="html_8f141a8cfdcd4a8caf2f84cf1791dd22" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e0d37d091c8f4f45b9c64d68a08933e6.setContent(html_8f141a8cfdcd4a8caf2f84cf1791dd22);
+        
+
+        marker_395444b232e3442f9dc9ffc0a9405ec7.bindPopup(popup_e0d37d091c8f4f45b9c64d68a08933e6)
+        ;
+
+        
+    
+    
+            var marker_0732526e22bc49ddae9e1b0c27935089 = L.marker(
+                [37.77558941300509, -122.41869832893869],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_eaff81ad416043648a6b2a276fc468d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0732526e22bc49ddae9e1b0c27935089.setIcon(icon_eaff81ad416043648a6b2a276fc468d5);
+        
+    
+        var popup_853b7cad92234c158fa96616f340910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e977feef513d4c6da83f78b1de1a4892 = $(`<div id="html_e977feef513d4c6da83f78b1de1a4892" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_853b7cad92234c158fa96616f340910f.setContent(html_e977feef513d4c6da83f78b1de1a4892);
+        
+
+        marker_0732526e22bc49ddae9e1b0c27935089.bindPopup(popup_853b7cad92234c158fa96616f340910f)
+        ;
+
+        
+    
+    
+            var marker_ad2d12133a874474a855fead09b6ff1b = L.marker(
+                [37.79231587476473, -122.41084562422678],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_141c4d0695bd4d47a3c24f598689c141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad2d12133a874474a855fead09b6ff1b.setIcon(icon_141c4d0695bd4d47a3c24f598689c141);
+        
+    
+        var popup_13b8af455c7b4de499acd6de7ed84110 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc63be5a313849be9d7e992d65854c93 = $(`<div id="html_cc63be5a313849be9d7e992d65854c93" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_13b8af455c7b4de499acd6de7ed84110.setContent(html_cc63be5a313849be9d7e992d65854c93);
+        
+
+        marker_ad2d12133a874474a855fead09b6ff1b.bindPopup(popup_13b8af455c7b4de499acd6de7ed84110)
+        ;
+
+        
+    
+    
+            var marker_40674e2eb2f54a1da84c9e900ade616b = L.marker(
+                [37.78174295946118, -122.44770045860787],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_7c7c4ffc41d2497583c21fb629747ac3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40674e2eb2f54a1da84c9e900ade616b.setIcon(icon_7c7c4ffc41d2497583c21fb629747ac3);
+        
+    
+        var popup_2e863fa5f7d34493907505097a32a2d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c6efd64b52e418890c504ff8df0d4ac = $(`<div id="html_1c6efd64b52e418890c504ff8df0d4ac" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_2e863fa5f7d34493907505097a32a2d1.setContent(html_1c6efd64b52e418890c504ff8df0d4ac);
+        
+
+        marker_40674e2eb2f54a1da84c9e900ade616b.bindPopup(popup_2e863fa5f7d34493907505097a32a2d1)
+        ;
+
+        
+    
+    
+            var marker_c7015bdfd9844b85a95afc8fd8121167 = L.marker(
+                [37.71182293860456, -122.42796628826635],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_709b2f51b0254e2c97e9ff51aee7b124 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7015bdfd9844b85a95afc8fd8121167.setIcon(icon_709b2f51b0254e2c97e9ff51aee7b124);
+        
+    
+        var popup_111dc1fc2bdb4e3884f1f9c4c8dbecca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da01c2bc857642a19e50d06ccc54d1be = $(`<div id="html_da01c2bc857642a19e50d06ccc54d1be" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_111dc1fc2bdb4e3884f1f9c4c8dbecca.setContent(html_da01c2bc857642a19e50d06ccc54d1be);
+        
+
+        marker_c7015bdfd9844b85a95afc8fd8121167.bindPopup(popup_111dc1fc2bdb4e3884f1f9c4c8dbecca)
+        ;
+
+        
+    
+    
+            var marker_01ac843cf5a141fe841ed6cdd1d7370f = L.marker(
+                [37.771292378055975, -122.42433694913899],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_c201daac398d4c6281374694b63e730a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_01ac843cf5a141fe841ed6cdd1d7370f.setIcon(icon_c201daac398d4c6281374694b63e730a);
+        
+    
+        var popup_7f2dd556b8f942a4a19ba7f78435bb9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ff9531dbe3548748a95115e496dfb75 = $(`<div id="html_7ff9531dbe3548748a95115e496dfb75" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_7f2dd556b8f942a4a19ba7f78435bb9f.setContent(html_7ff9531dbe3548748a95115e496dfb75);
+        
+
+        marker_01ac843cf5a141fe841ed6cdd1d7370f.bindPopup(popup_7f2dd556b8f942a4a19ba7f78435bb9f)
+        ;
+
+        
+    
+    
+            var marker_fb959c2869cf4e16bec5a24e9dcebfda = L.marker(
+                [37.789486328768724, -122.39536898300743],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_811590f99bc54bd5a217a1e50571a9f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb959c2869cf4e16bec5a24e9dcebfda.setIcon(icon_811590f99bc54bd5a217a1e50571a9f7);
+        
+    
+        var popup_6559335b76774322bdf80445433b8c60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4115f62d6d854fac9b86661e8fade7c8 = $(`<div id="html_4115f62d6d854fac9b86661e8fade7c8" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_6559335b76774322bdf80445433b8c60.setContent(html_4115f62d6d854fac9b86661e8fade7c8);
+        
+
+        marker_fb959c2869cf4e16bec5a24e9dcebfda.bindPopup(popup_6559335b76774322bdf80445433b8c60)
+        ;
+
+        
+    
+    
+            var marker_08953bfc28dd47809116af01cb7ef797 = L.marker(
+                [37.74419275089318, -122.44468548227269],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_eb02491df3c34bae93ca43e78f45772f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08953bfc28dd47809116af01cb7ef797.setIcon(icon_eb02491df3c34bae93ca43e78f45772f);
+        
+    
+        var popup_9597ca47a7e84d3c84f9881e52a57d32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3cc8e6db46c4d36aa942acf7bf369f4 = $(`<div id="html_e3cc8e6db46c4d36aa942acf7bf369f4" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_9597ca47a7e84d3c84f9881e52a57d32.setContent(html_e3cc8e6db46c4d36aa942acf7bf369f4);
+        
+
+        marker_08953bfc28dd47809116af01cb7ef797.bindPopup(popup_9597ca47a7e84d3c84f9881e52a57d32)
+        ;
+
+        
+    
+    
+            var marker_c866dfb1150547519d949ed4710b3203 = L.marker(
+                [37.727005319630045, -122.4034086691905],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_cc8fc52320d84ab1ad046dc9d2ef80d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c866dfb1150547519d949ed4710b3203.setIcon(icon_cc8fc52320d84ab1ad046dc9d2ef80d5);
+        
+    
+        var popup_3d495a74c46746d8909df46887812652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a640e70cb1ff409d936310819e5b217b = $(`<div id="html_a640e70cb1ff409d936310819e5b217b" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_3d495a74c46746d8909df46887812652.setContent(html_a640e70cb1ff409d936310819e5b217b);
+        
+
+        marker_c866dfb1150547519d949ed4710b3203.bindPopup(popup_3d495a74c46746d8909df46887812652)
+        ;
+
+        
+    
+    
+            var marker_a0a8259e935d4a18891923e3e599f155 = L.marker(
+                [37.76254863675447, -122.4340634546833],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_337f4e39453a4d09ba7ec7c2c4ad4126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0a8259e935d4a18891923e3e599f155.setIcon(icon_337f4e39453a4d09ba7ec7c2c4ad4126);
+        
+    
+        var popup_2206e3691c9747a1871ab276f275af81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b097ed5af6fb4afd8cddaa84112dbe8a = $(`<div id="html_b097ed5af6fb4afd8cddaa84112dbe8a" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_2206e3691c9747a1871ab276f275af81.setContent(html_b097ed5af6fb4afd8cddaa84112dbe8a);
+        
+
+        marker_a0a8259e935d4a18891923e3e599f155.bindPopup(popup_2206e3691c9747a1871ab276f275af81)
+        ;
+
+        
+    
+    
+            var marker_52b884741fe64c359365e0c2cc9b8859 = L.marker(
+                [37.76907480038466, -122.41335418701843],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_d99062e0d55943f1b917ad2198013260 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52b884741fe64c359365e0c2cc9b8859.setIcon(icon_d99062e0d55943f1b917ad2198013260);
+        
+    
+        var popup_e8f44ae741f84347b734ad89acb25d4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf49716bb4a4b3e80cb3643ea12a720 = $(`<div id="html_bcf49716bb4a4b3e80cb3643ea12a720" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_e8f44ae741f84347b734ad89acb25d4f.setContent(html_bcf49716bb4a4b3e80cb3643ea12a720);
+        
+
+        marker_52b884741fe64c359365e0c2cc9b8859.bindPopup(popup_e8f44ae741f84347b734ad89acb25d4f)
+        ;
+
+        
+    
+    
+            var marker_9222a0b1017a4f5fbe96b99d5b7b4a0d = L.marker(
+                [37.779672005547965, -122.42354523204223],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_fc9d676e55a44d9f936e476842cf81f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9222a0b1017a4f5fbe96b99d5b7b4a0d.setIcon(icon_fc9d676e55a44d9f936e476842cf81f9);
+        
+    
+        var popup_ac500d4e826f43a6a36f00f1eb3df036 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f32a367c1c6c483da272e4b3d7ef737d = $(`<div id="html_f32a367c1c6c483da272e4b3d7ef737d" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_ac500d4e826f43a6a36f00f1eb3df036.setContent(html_f32a367c1c6c483da272e4b3d7ef737d);
+        
+
+        marker_9222a0b1017a4f5fbe96b99d5b7b4a0d.bindPopup(popup_ac500d4e826f43a6a36f00f1eb3df036)
+        ;
+
+        
+    
+    
+            var marker_9d66604f041246baa6cf6c4bbe3c7b4a = L.marker(
+                [37.78283091926964, -122.46818125832851],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_8864c44f48d84863b61baa54961d489d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d66604f041246baa6cf6c4bbe3c7b4a.setIcon(icon_8864c44f48d84863b61baa54961d489d);
+        
+    
+        var popup_d841589715184ad888d5bcc7a96a5839 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35480b0f61614ddaa08ede8a097abbdd = $(`<div id="html_35480b0f61614ddaa08ede8a097abbdd" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_d841589715184ad888d5bcc7a96a5839.setContent(html_35480b0f61614ddaa08ede8a097abbdd);
+        
+
+        marker_9d66604f041246baa6cf6c4bbe3c7b4a.bindPopup(popup_d841589715184ad888d5bcc7a96a5839)
+        ;
+
+        
+    
+    
+            var marker_1158c1ebc70a4ff5b0359546a9c6ea88 = L.marker(
+                [37.75383820485006, -122.41859672745865],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_0c25f42a16474f738e21c97d49b9a13a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1158c1ebc70a4ff5b0359546a9c6ea88.setIcon(icon_0c25f42a16474f738e21c97d49b9a13a);
+        
+    
+        var popup_b671b4d67d1a4999990982c9ec3eceae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b89f5b2fed3438eb27bfc54bfb19f96 = $(`<div id="html_2b89f5b2fed3438eb27bfc54bfb19f96" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_b671b4d67d1a4999990982c9ec3eceae.setContent(html_2b89f5b2fed3438eb27bfc54bfb19f96);
+        
+
+        marker_1158c1ebc70a4ff5b0359546a9c6ea88.bindPopup(popup_b671b4d67d1a4999990982c9ec3eceae)
+        ;
+
+        
+    
+    
+            var marker_e44463ca7aeb4faba410b1e31bda790c = L.marker(
+                [37.784696907903964, -122.41360932898488],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_8b205cdf336442ddbd58b6a55243153b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e44463ca7aeb4faba410b1e31bda790c.setIcon(icon_8b205cdf336442ddbd58b6a55243153b);
+        
+    
+        var popup_04657d3d11b6415aa37bcca3de6e211a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7323ae22de994d0580b14f198ed2107f = $(`<div id="html_7323ae22de994d0580b14f198ed2107f" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_04657d3d11b6415aa37bcca3de6e211a.setContent(html_7323ae22de994d0580b14f198ed2107f);
+        
+
+        marker_e44463ca7aeb4faba410b1e31bda790c.bindPopup(popup_04657d3d11b6415aa37bcca3de6e211a)
+        ;
+
+        
+    
+    
+            var marker_e1e7e43fa69242b9ab540ddfb52d7c31 = L.marker(
+                [37.78610645206504, -122.46148884439798],
+                {}
+            ).addTo(feature_group_e96397d652994de9ab48cf614c2a7383);
+        
+    
+            var icon_7a4b1375ce68417d8db2760f04a3adc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1e7e43fa69242b9ab540ddfb52d7c31.setIcon(icon_7a4b1375ce68417d8db2760f04a3adc7);
+        
+    
+        var popup_44f27ec7b5b148beaa1709c80452ea1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd0451064fae4ddba47180de5df4cf16 = $(`<div id="html_fd0451064fae4ddba47180de5df4cf16" style="width: 100.0%; height: 100.0%;">Crime Scene</div>`)[0];
+            popup_44f27ec7b5b148beaa1709c80452ea1a.setContent(html_fd0451064fae4ddba47180de5df4cf16);
+        
+
+        marker_e1e7e43fa69242b9ab540ddfb52d7c31.bindPopup(popup_44f27ec7b5b148beaa1709c80452ea1a)
+        ;
+
+        
+    
+</script>
