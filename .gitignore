@@ -24,5 +24,3 @@
 *.xml
 *._*
 *.DS_STORE
-LearnandImplement/ComputerVisionDeepLearning/FaceDetectorwithOpenCVandDeepLearning/res10_300x300_ssd_iter_140000.caffemodel
-LearnandImplement/ComputerVisionDeepLearning/PretrainedCNNImageClassification/bvlc_googlenet.caffemodel
