@@ -1,2 +1,1 @@
-# LearnAI
-This repository is an overview of my self learning in the field of artificial intelligence
+Branch focussing on Classical and Traditional Computer Vision both standalone and concepts, techniques leveragining in Artifical Intelligence
