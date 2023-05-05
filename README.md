@@ -1,6 +1,6 @@
 ### Hello!
 
-Myself Shlok Purani with Advanced Diploma in Computer Programming and Analysis from Seneca School of Arts and Technology. Currently working as a Software Developer. Trying to make a transition in Artificial Intelligence by repetitive process called Learning. I am looking forward to collaborate on projects which solves real life or real world challenges using Artificial Intelligence.
+Myself Shlok Purani with Advanced Diploma in Computer Programming and Analysis from Seneca School of Arts and Technology. Currently working as a Data Scientist. Trying to make a transition in Artificial Intelligence by repetitive process called Learning. I am looking forward to collaborate on projects which solves real life or real world challenges using Artificial Intelligence.
 
 # Edureka Machine Learning Engineer
 This Branch is an overview of my Machine Learning Engineer Masters Certification coursework on an online learning platform Edureka. The course was really intersting as I got to learn most advanced concepts. The following are the list of courses that I learned and implemented their respective concepts
